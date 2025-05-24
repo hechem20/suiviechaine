@@ -26,7 +26,7 @@ class _ListCamionState extends State<ListCamion> {
 
   Future<void> _loadBlockchainData() async {
     // _ethClient = Web3Client("HTTP://127.0.0.1:7545", Client());
-    _ethClient = Web3Client("http://10.0.2.2:7545", Client());
+    _ethClient = Web3Client("http://44.202.69.7:7545", Client());
 
     final abi = ''' [
 	{
