@@ -38,7 +38,7 @@ class _AjoutCamionState extends State<AjoutCamion> {
   }
 
   Future<void> _initializeBlockchain() async {
-    _ethClient = Web3Client("http://10.0.2.2:7545", Client());
+    _ethClient = Web3Client("http://44.202.69.7:7545", Client());
 
     _credentials = EthPrivateKey.fromHex(
         "0xe7731ff35f67404baf8cf990dbe77bdabfff640f785fcae0e09aa5d0c7cd492a");
