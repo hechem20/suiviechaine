@@ -31,7 +31,7 @@ class _CommandesScreenState extends State<CommandesScreen> {
   @override
   void initState() {
     super.initState();
-    rpcUrl = "http://10.0.2.2:7545"; // Remplacez par l'URL de votre node
+    rpcUrl = "http://44.202.69.7:7545"; // Remplacez par l'URL de votre node
     privateKey =
         "0xe7731ff35f67404baf8cf990dbe77bdabfff640f785fcae0e09aa5d0c7cd492a"; // Remplacez par votre clé privée
     contractAddress = EthereumAddress.fromHex(
