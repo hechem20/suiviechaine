@@ -30,7 +30,7 @@ class _PayementState extends State<Payement> {
   @override
   void initState() {
     super.initState();
-    _rpcUrl = "http://10.0.2.2:7545"; // Remplacez par l'URL de votre node
+    _rpcUrl = "http://44.202.69.7:7545"; // Remplacez par l'URL de votre node
     _privateKey =
         "0xe7731ff35f67404baf8cf990dbe77bdabfff640f785fcae0e09aa5d0c7cd492a"; // Remplacez par votre clé privée
     _contractAddress = EthereumAddress.fromHex(
