@@ -19,7 +19,7 @@ class _VisualisationClientState extends State<VisualisationClient> {
   late List p;
 
   late Web3Client ethClient;
-  final String rpcUrl = "http://10.0.2.2:7545";
+  final String rpcUrl = "http://44.202.69.7:7545";
   final String contractAddress = "0x783ED60354c06A03560bC752090c6f8D0E259fc5";
   late DeployedContract contract;
   late ContractFunction getProductFunction;
