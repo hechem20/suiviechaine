@@ -23,7 +23,7 @@ class _AjoutProduitState extends State<AjoutProduit> {
   final agri = TextEditingController();
 
   late Web3Client ethClient;
-  final String rpcUrl = "http://10.0.2.2:7545";
+  final String rpcUrl = "http://44.202.69.7:7545";
   final String privateKey =
       "0xe7731ff35f67404baf8cf990dbe77bdabfff640f785fcae0e09aa5d0c7cd492a";
   final String contractAddress = "0x783ED60354c06A03560bC752090c6f8D0E259fc5";
